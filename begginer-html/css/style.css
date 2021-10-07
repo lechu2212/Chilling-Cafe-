@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+ol, ul {
+    list-style: none;
+}
+body{
+    background: #3A4A58;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main #header {
+    padding: 4% 0;
+    display: flex;
+    justify-content: center;
+}
+#main #header div.head {
+    margin-right: 15px;
+}
+#main #header div.head h1 {
+    width: 56px;;
+}
+#main #header div.head h1 img {
+    display: block;
+    width: 100%;
+}
+#main #header h2{
+    color: #fff;
+    font-size: 40px;
+}
+#main #spotlight{
+    background: #fff;
+    width: 50%;
+    
+}
+#main #spotlight div.container {
+    
+}
+#main #spotlight div.container img {
+    display: block;
+    width: 100%;
+}
+
+#main #coffee {
+    background: #fff;
+}
+#main #coffee section.wrapper {
+    text-align: center;
+    padding: 0 20px;
+}
+#main #coffee section.wrapper h3 {
+    font-size: 30px;
+    padding: 20px;
+    margin: 15px;
+    color: #996633;
+}
+#main #coffee section.wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#main #coffee section.wrapper table thead {}
+#main #coffee section.wrapper table  thead tr{}
+#main #coffee section.wrapper table thead tr th {
+    background: #9999;
+    padding: 1px 15px;
+    font-size: 20px;
+}
+#main #coffee section.wrapper table tbody {}
+#main #coffee section.wrapper table tbody tr {}
+#main #coffee section.wrapper table tbody tr td{
+    color: #ad9b9b;
+    padding: 1px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+#main #coffee section.wrapper table tbody tr td.menu {
+    text-align: left;
+}
+
+#main #coffee section.wrapper table tbody tr:nth-child(2n) {
+    background: #e5e6e7;
+}
+
+#main #tea {
+    background: #fff;
+}
+#main #tea section.wrapper {
+    text-align: center;
+    padding: 0 20px;
+}
+#main #tea section.wrapper h3 {
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    color: #996633;
+}
+#main #tea section.wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#main #tea section.wrapper table thead {}
+#main #tea section.wrapper table  thead tr{}
+#main #tea section.wrapper table thead tr th {
+    background: #9999;
+    padding: 1px 15px;
+    font-size: 20px;
+}
+#main #tea section.wrapper table tbody {}
+#main #tea section.wrapper table tbody tr {}
+#main #tea section.wrapper table tbody tr td{
+    color: #ad9b9b;
+    padding: 1px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+#main #tea section.wrapper table tbody tr td.menu {
+    text-align: left;
+}
+#main #tea section.wrapper table tbody tr:nth-child(2n) {
+    background: #e5e6e7;
+}
+
+
+#main #gallery {}
+#main #gallery section.wrapper {
+    text-align: center;
+    padding: 0 20px;
+}
+
+#main #gallery section.wrapper h3 {
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px 0 15px;
+    color: #996633;
+}
+#main #gallery section.wrapper ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main #gallery section.wrapper ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main #gallery section.wrapper ul li div.container {
+    width: 100%;
+    padding: 20px;
+}
+#main #gallery section.wrapper ul li div.container img {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#main #gallery section.wrapper ul li p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#main hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#main #about {}
+#main #about section.wrapper {
+    text-align: center;
+    padding: 30px 85px;
+}
+#main #about section.wrapper h3 {
+    font-size: 30px;
+    color: #996633;
+}
+#main #about section.wrapper p {
+    color: #ad9b9b;
+    font-size: 20px;
+    margin: 28px 0 0;
+    text-align: left;
+}
+#main #contact-us {
+    text-align: center;
+}
+#main #contact-us h2 {
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    color: #996633;
+}
+#main #contact-us p {
+    color: #ad9b9b;
+    font-size: 20px;
+    text-align: center;
+}
+#main #contact-us p a {
+    font-weight: bolder;
+    color: #000;
+}
+
+#main #top {}
+#main #top section.contact-us {
+     text-align: center;
+}
+#main #top section.contact-us h2 {
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    color: #996633;
+}
+#main #top section.contact-us p {
+    color: #8C8C8C;
+    font-size: 20px;
+}
+#main #top section.contact-us p a {
+    color: #000;
+    font-weight: bolder;
+}
+#main #top section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 275px;
+}
+#main #top section.wrapper div.icons {
+        margin-right: 10px;
+}
+#main #top section.wrapper div.icons a {
+    width: 50%;
+}
+#main #top section.wrapper div.icons a img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    padding: 10px 0;
+}
+footer p{
+    font-size: 20px;
+    color: #fff;
+}
+footer p a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
